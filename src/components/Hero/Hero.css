@@ -1,0 +1,48 @@
+.hero {
+
+  background-image: url('../../../public/assets/hero-img/burgur.png'), linear-gradient(to right, #fff 60%, #800A7A 40%);
+  background-position: calc(50% + 270px) 0, 100% 100%;
+}
+  
+  .hero-product__info-btn {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .hero {
+      padding-top: 300px;
+      background-image: url("../../../public/assets/hero-img/hero-mobil.png"), linear-gradient(to bottom , #fff 2%, #800A7A  0%) ;
+      background-repeat: no-repeat;
+      background-position: 10% 0, 50% 125px;
+      background-size: contain, contain;
+    }
+    .hero-product {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .hero-product__info {
+      width: 100%;
+      
+    }
+    .hero-product__info:first-child {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    .hero-content__title {
+      margin-bottom: 12px;
+      text-align: center;
+      color: #FFF;
+      font-size: 36px;
+      line-height: normal;
+    }
+    .hero-content__desc {
+      padding-bottom: 35px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+    }
+
+  }

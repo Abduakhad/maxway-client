@@ -3,6 +3,7 @@ import { LogoIcon } from './Icons'
 
 const Header = () => {
 	return (
+		// <header className='bg-gradient-to-r from-white from-60% to-purple to-40% py-[23px]'>
 		<header className='bg-gradient-to-r from-white from-60% to-purple to-40% py-[23px]'>
 			<Container>
 				<div className='flex items-center'>
@@ -35,7 +36,7 @@ const Header = () => {
 
 					<div className='w-[40%] flex justify-between items-center pl-20'>
 						<a
-							className='flex items-center gap-4 text-white before:content-[url("./phone-icon.svg")]'
+							className='flex items-center ml-6 gap-4 text-white before:content-[url("./phone-icon.svg")]'
 							href='tel:+998712005400'>
 							<span>
 								<span className='block text-sm'>(+99871)</span>

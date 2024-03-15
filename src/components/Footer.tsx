@@ -60,33 +60,29 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div className='lg:w-1/4 md:w-1/2 w-full px-4'></div>
-						<div className='lg:w-1/4 md:w-1/2 w-full px-4'>
+						<div className='lg:w-1/4 md:w-1/2  w-72 h-36 px-4  bg-blue '></div>
+						<div className='lg:w-1/4 md:w-1/2  w-72 h-36 px-4  bg-blue '>
 							<h2 className='text-xl font-semibold text-[#003846] tracking-widest mb-3'>
 								Biz bilan aloqa
 							</h2>
-							<nav className='list-none mb-10'>
+							<ul className='list-none mb-10'>
 								<li>
-									<a className='text-gray-600 hover:text-gray-800'>
-										First Link
+									<a className='text-gray-600 text-[23px] hover:text-gray-800' href='tel:+998712005400'>
+                  <span>
+								<span className='block text-sm'>(+99871)</span>
+								<span className='block text-2xl font-bold'>200-54-00</span>
+							</span>
 									</a>
 								</li>
 								<li>
 									<a className='text-gray-600 hover:text-gray-800'>
-										Second Link
+                    <address>
+									100011, Toshkent sh. Shayxontohur tumani,
+                                       Zarqaynar ko’chasi, 3B-uy
+                    </address>
 									</a>
 								</li>
-								<li>
-									<a className='text-gray-600 hover:text-gray-800'>
-										Third Link
-									</a>
-								</li>
-								<li>
-									<a className='text-gray-600 hover:text-gray-800'>
-										Fourth Link
-									</a>
-								</li>
-							</nav>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -96,11 +92,11 @@ const Footer = () => {
 						<p className='text-gray-500 text-sm text-center sm:text-left'>
 							© Maxway, 2024
 							<a
-								href='https://github.com/shakhbozbekusmonov'
+								href='https://github.com/Abduakhad'
 								rel='noopener noreferrer'
 								className='text-gray-600 ml-1'
 								target='_blank'>
-								@shakhbozbekusmonov
+								Abduakhad_Kuyliev
 							</a>
 						</p>
 						<ul className='inline-flex gap-6 sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start'>
